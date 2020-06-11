@@ -1,0 +1,27 @@
+.header {
+    background: #f4f6f8;
+    padding: 20px 0;
+}
+
+.header_nav {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.header_menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#404da0;
+}

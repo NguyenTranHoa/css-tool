@@ -1,0 +1,10 @@
+body, html {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  color: #212b36;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+  background-color: #f9fafb;;
+}

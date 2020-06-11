@@ -1,0 +1,57 @@
+.head, .body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.generator-title {
+    font-weight: 700;
+    padding: 20px 20px 0;
+}
+
+.generator-content {
+    padding: 20px;
+}
+
+.generator-item {
+    padding: 20px 0;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.box-inline {
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+}
+
+.codeB {
+    padding: 20px;
+}
+
+.template {
+    padding: 20px;
+}
+
+.cardSession-inner {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapperB-inner {
+      flex-flow: row nowrap;
+      margin: 0 auto;
+    }
+    .wrapperB-inner>div {
+      width: 50% !important;
+    }
+    .wrapperB-inner>.control {
+      order: 1;
+    }
+    .wrapperB-inner>.view {
+      order: 2;
+    }
+  } 
